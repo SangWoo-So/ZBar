@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
-  s.name     = 'ZBarSDK'
-  s.version  = '2.0.0'
+  s.name     = 'ZBarSDKLib'
+  s.version  = '1.0.0'
   s.platform = :ios
   s.license  = 'GNU LGPL 2.1'
   s.summary  = 'QR and barcode scan library'
   s.homepage = 'http://zbar.sourceforge.net/'
   s.author   = { 'Jeff Brown' => 'spadix@users.sourceforge.net' }
-  s.source   = { :git => 'https://github.com/SangWoo-So/ZBar.git', :tag => 'iPhoneSDK-2.0.0' }
+  s.source   = { :git => 'https://github.com/SangWoo-So/ZBar.git', :tag => 'v1.0.0' }
 
   s.description  = 'ZBar is an open source software suite for reading bar codes from various sources, such as video streams, ' \
                    'image files and raw intensity sensors. It supports many popular symbologies (types of bar codes) including ' \
@@ -14,14 +14,8 @@ Pod::Spec.new do |s|
 
   s.resources    = 'iphone/res/{zbar-*.png,zbar-help.html}'
 
-  s.public_header_files = 'iphone/**/**/*.h', 'include/*.h'
-  s.source_files = 'include/zbar.h', 'zbar/**/*.h',
-                    'iphone/*.h',
-                    'iphone/include/**/*.h',
-                    'zbar/{config,decoder,error,image,img_scanner,refcnt,scanner,symbol}.c',
-                    'zbar/decoder/{codabar,code39,code93,code128,databar,ean,i25,qr_finder}.c',
-                    'zbar/qrcode/*.c',
-                    'iphone/*.m'
+  s.public_header_files = '3.OUTPUT/*/*.h', '3.OUTPUT/*/*/*.h'
+  s.source_files = '3.OUTPUT/*/*.h', '3.OUTPUT/*/*/*.h'
 
   s.frameworks   = 'AVFoundation', 'CoreGraphics', 'CoreMedia', 'CoreVideo', 'QuartzCore'
 
@@ -36,6 +30,7 @@ Pod::Spec.new do |s|
   s.prefix_header_file = 'iphone/include/prefix.pch'
   s.compiler_flags = '-w'
   s.requires_arc = false
+  s.ios.vendored_frameworks = '3.OUTPUT/libzbar.a'
 
 #   # Maintain the dir structure for headers
 #   def s.copy_header_mapping(from)

@@ -1,0 +1,44 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "fa990f0ac31b92bb574e68b8aab18fd7a09fb951c034171470b90f08d9b4d082"
+    }
+  ],
+  "containerPath" : "/Users/banaple/Documents/GitHub/ZBar/iphone/zbar.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "configurationName" : "Debug",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "BUILD_DIR" : "/Users/banaple/Library/Developer/Xcode/DerivedData/zbar-btgfwtfuagckkfgucuyjemmsjafv/Build/Products",
+          "BUILD_ROOT" : "/Users/banaple/Library/Developer/Xcode/DerivedData/zbar-btgfwtfuagckkfgucuyjemmsjafv/Build/Products",
+          "SDKROOT" : "iphoneos17.4",
+          "TOOLCHAINS" : "com.apple.dt.toolchain.XcodeDefault"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO"
+        }
+      },
+      "toolchainOverride" : "com.apple.dt.toolchain.XcodeDefault"
+    }
+  },
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : false,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : false
+}
