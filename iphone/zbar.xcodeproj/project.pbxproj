@@ -42,18 +42,6 @@
 /* Begin PBXBuildFile section */
 		DC26004C118631C200FA987B /* ZBarCaptureReader.m in Sources */ = {isa = PBXBuildFile; fileRef = DC26004B118631C200FA987B /* ZBarCaptureReader.m */; };
 		DC290E281351496400A9B857 /* codabar.c in Sources */ = {isa = PBXBuildFile; fileRef = DC290E261351496400A9B857 /* codabar.c */; };
-		DC299A9D1208B5E8006A023C /* libzbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAC07E0554694100DB518D /* libzbar.a */; };
-		DC299AA01208B61C006A023C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC50453D1203396B009FF359 /* AVFoundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		DC299AA11208B61C006A023C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC50453F1203396B009FF359 /* CoreMedia.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		DC299AA21208B61C006A023C /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5045411203396B009FF359 /* CoreVideo.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		DC299AA31208B61C006A023C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1A49C111FF537000BCDA30 /* QuartzCore.framework */; };
-		DC299AA41208B61C006A023C /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5045431203396B009FF359 /* libiconv.dylib */; };
-		DC299AA51208B63C006A023C /* zbar-help.html in Resources */ = {isa = PBXBuildFile; fileRef = DC1A49A211FF33B300BCDA30 /* zbar-help.html */; };
-		DC299AA61208B63C006A023C /* zbar-helpicons.png in Resources */ = {isa = PBXBuildFile; fileRef = DC1A49A311FF33B300BCDA30 /* zbar-helpicons.png */; };
-		DC299AA71208B63C006A023C /* zbar-samples.png in Resources */ = {isa = PBXBuildFile; fileRef = DC1A49A411FF33B300BCDA30 /* zbar-samples.png */; };
-		DC299B061208FC11006A023C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC299B051208FC11006A023C /* CoreGraphics.framework */; };
-		DC299B311208FCA3006A023C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC67C08210A079BE0033B702 /* UIKit.framework */; };
-		DC299B841208FCAB006A023C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 		DC3AAB4F11B71A040021C7B1 /* ZBarCVImage.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3AAB4D11B71A040021C7B1 /* ZBarCVImage.m */; };
 		DC3CEE921215C93200D7A786 /* zbar.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = DC67C11710A07A810033B702 /* zbar.h */; };
 		DC3CEE941215C97F00D7A786 /* Decoder.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = DC50463512034A4C009FF359 /* Decoder.h */; };
@@ -78,7 +66,6 @@
 		DC3CF2041218353B00D7A786 /* COPYING in Copy SDK */ = {isa = PBXBuildFile; fileRef = DC50467C12034D71009FF359 /* COPYING */; };
 		DC3CF2051218353B00D7A786 /* LICENSE in Copy SDK */ = {isa = PBXBuildFile; fileRef = DC50467D12034D71009FF359 /* LICENSE */; };
 		DC3CF2A312197A8C00D7A786 /* zbar-back.png in Copy Resources */ = {isa = PBXBuildFile; fileRef = DC3CF2A212197A7200D7A786 /* zbar-back.png */; };
-		DC48C5341219FDDE0047193B /* zbar-back.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3CF2A212197A7200D7A786 /* zbar-back.png */; };
 		DC48C57D121A1F410047193B /* ZBarSDK in Copy SDK */ = {isa = PBXBuildFile; fileRef = DC48C55F121A1E7F0047193B /* ZBarSDK */; };
 		DC48C5A8121B1F910047193B /* Documentation.html in Copy SDK */ = {isa = PBXBuildFile; fileRef = DC48C5A7121B1F840047193B /* Documentation.html */; };
 		DC4920EE10A70475000E4D43 /* ZBarImage.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4920EC10A70475000E4D43 /* ZBarImage.m */; };
@@ -109,13 +96,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DC299A9E1208B5F1006A023C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D2AAC07D0554694100DB518D;
-			remoteInfo = libzbar;
-		};
 		DC3CEE861215C85400D7A786 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
@@ -225,7 +205,6 @@
 		DC299BEC1208FE40006A023C /* prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = prefix.pch; path = include/prefix.pch; sourceTree = "<group>"; };
 		DC3AAB4C11B71A040021C7B1 /* ZBarCVImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarCVImage.h; sourceTree = "<group>"; usesTabs = 0; };
 		DC3AAB4D11B71A040021C7B1 /* ZBarCVImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBarCVImage.m; sourceTree = "<group>"; usesTabs = 0; };
-		DC3CEF9D121633C500D7A786 /* readertest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = readertest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC3CEFA51216347100D7A786 /* ZBarCaptureReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZBarCaptureReader.h; path = include/ZBarSDK/ZBarCaptureReader.h; sourceTree = "<group>"; };
 		DC3CEFA61216347100D7A786 /* ZBarImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZBarImage.h; path = include/ZBarSDK/ZBarImage.h; sourceTree = "<group>"; };
 		DC3CEFA71216347100D7A786 /* ZBarImageScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZBarImageScanner.h; path = include/ZBarSDK/ZBarImageScanner.h; sourceTree = "<group>"; };
@@ -302,31 +281,11 @@
 		DCF5C9AC11EA3AD100E7DC21 /* databar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = databar.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFrameworksBuildPhase section */
-		DC299A931208B5D4006A023C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DC299B841208FCAB006A023C /* Foundation.framework in Frameworks */,
-				DC299B061208FC11006A023C /* CoreGraphics.framework in Frameworks */,
-				DC299B311208FCA3006A023C /* UIKit.framework in Frameworks */,
-				DC299AA31208B61C006A023C /* QuartzCore.framework in Frameworks */,
-				DC299AA01208B61C006A023C /* AVFoundation.framework in Frameworks */,
-				DC299AA11208B61C006A023C /* CoreMedia.framework in Frameworks */,
-				DC299AA21208B61C006A023C /* CoreVideo.framework in Frameworks */,
-				DC299AA41208B61C006A023C /* libiconv.dylib in Frameworks */,
-				DC299A9D1208B5E8006A023C /* libzbar.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
 /* Begin PBXGroup section */
 		034768DFFF38A50411DB9C8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				D2AAC07E0554694100DB518D /* libzbar.a */,
-				DC3CEF9D121633C500D7A786 /* readertest.app */,
 				DC48C55F121A1E7F0047193B /* ZBarSDK */,
 			);
 			name = Products;
@@ -522,24 +481,6 @@
 			productReference = D2AAC07E0554694100DB518D /* libzbar.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		DC299A941208B5D4006A023C /* readertest */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DC299A9A1208B5D5006A023C /* Build configuration list for PBXNativeTarget "readertest" */;
-			buildPhases = (
-				DC299A911208B5D4006A023C /* Resources */,
-				DC299A921208B5D4006A023C /* Sources */,
-				DC299A931208B5D4006A023C /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DC299A9F1208B5F1006A023C /* PBXTargetDependency */,
-			);
-			name = readertest;
-			productName = readertest;
-			productReference = DC3CEF9D121633C500D7A786 /* readertest.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -565,24 +506,9 @@
 				D2AAC07D0554694100DB518D /* libzbar */,
 				DC3CEE821215C7EF00D7A786 /* ZBarSDK */,
 				DC1A4A4E11FF5D0500BCDA30 /* ZBarSDK.dmg */,
-				DC299A941208B5D4006A023C /* readertest */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		DC299A911208B5D4006A023C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DC299AA51208B63C006A023C /* zbar-help.html in Resources */,
-				DC299AA61208B63C006A023C /* zbar-helpicons.png in Resources */,
-				DC299AA71208B63C006A023C /* zbar-samples.png in Resources */,
-				DC48C5341219FDDE0047193B /* zbar-back.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		DC1A4A4D11FF5D0500BCDA30 /* Make Disk Image */ = {
@@ -614,7 +540,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "exec $SOURCE_ROOT/bin/BuildUniversal.sh libzbar";
+			shellScript = "exec $SOURCE_ROOT/bin/BuildUniversal.sh libzbar\n";
 		};
 		DC48C585121AC7C20047193B /* Build Documentation */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -668,21 +594,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC299A921208B5D4006A023C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DC299A9F1208B5F1006A023C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D2AAC07D0554694100DB518D /* libzbar */;
-			targetProxy = DC299A9E1208B5F1006A023C /* PBXContainerItemProxy */;
-		};
 		DC3CEE871215C85400D7A786 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D2AAC07D0554694100DB518D /* libzbar */;
@@ -700,6 +614,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -712,6 +627,7 @@
 					../include,
 					../zbar,
 				);
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = zbar;
 				SKIP_INSTALL = YES;
@@ -722,6 +638,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = include/prefix.pch;
@@ -730,6 +647,7 @@
 					../include,
 					../zbar,
 				);
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = zbar;
 				SKIP_INSTALL = YES;
@@ -740,7 +658,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development: swso@banaple.co.kr (6QBQDWG949)";
 				EXCLUDED_SOURCE_FILE_NAMES = "";
 				"EXCLUDED_SOURCE_FILE_NAMES[sdk=iphoneos*][arch=*]" = ZBarReaderViewImpl_Simulator.m;
 				"EXCLUDED_SOURCE_FILE_NAMES[sdk=iphonesimulator*][arch=*]" = (
@@ -766,7 +684,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development: swso@banaple.co.kr (6QBQDWG949)";
 				EXCLUDED_SOURCE_FILE_NAMES = "";
 				"EXCLUDED_SOURCE_FILE_NAMES[sdk=iphoneos*][arch=*]" = ZBarReaderViewImpl_Simulator.m;
 				"EXCLUDED_SOURCE_FILE_NAMES[sdk=iphonesimulator*][arch=*]" = (
@@ -805,56 +723,11 @@
 			};
 			name = Release;
 		};
-		DC299A981208B5D5006A023C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = examples/readertest/prefix.pch;
-				HEADER_SEARCH_PATHS = (
-					include/ZBarSDK,
-					../include,
-				);
-				INFOPLIST_FILE = examples/readertest/readertest.plist;
-				INSTALL_PATH = "$(HOME)/Applications";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
-				PREBINDING = NO;
-				PRODUCT_NAME = readertest;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		DC299A991208B5D5006A023C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = examples/readertest/prefix.pch;
-				HEADER_SEARCH_PATHS = (
-					include/ZBarSDK,
-					../include,
-				);
-				INFOPLIST_FILE = examples/readertest/readertest.plist;
-				INSTALL_PATH = "$(HOME)/Applications";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
-				PREBINDING = NO;
-				PRODUCT_NAME = readertest;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				ZERO_LINK = NO;
-			};
-			name = Release;
-		};
 		DC3748D71357BC69004E69D6 /* Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "Apple Development: swso@banaple.co.kr (6QBQDWG949)";
 				EXCLUDED_SOURCE_FILE_NAMES = "";
 				"EXCLUDED_SOURCE_FILE_NAMES[sdk=iphoneos*][arch=*]" = ZBarReaderViewImpl_Simulator.m;
 				"EXCLUDED_SOURCE_FILE_NAMES[sdk=iphonesimulator*][arch=*]" = (
@@ -879,6 +752,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = include/prefix.pch;
@@ -887,6 +761,7 @@
 					../include,
 					../zbar,
 				);
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = zbar;
 				SKIP_INSTALL = YES;
@@ -911,29 +786,6 @@
 				COPY_PHASE_STRIP = NO;
 				PRODUCT_NAME = ZBarSDK.dmg;
 				TARGET_BUILD_DIR = "$(TARGET_BUILD_DIR)/$(PRODUCT_NAME)";
-			};
-			name = Distribution;
-		};
-		DC3748DB1357BC69004E69D6 /* Distribution */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = examples/readertest/prefix.pch;
-				HEADER_SEARCH_PATHS = (
-					include/ZBarSDK,
-					../include,
-				);
-				INFOPLIST_FILE = examples/readertest/readertest.plist;
-				INSTALL_PATH = "$(HOME)/Applications";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
-				PREBINDING = NO;
-				PRODUCT_NAME = readertest;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				ZERO_LINK = NO;
 			};
 			name = Distribution;
 		};
@@ -989,16 +841,6 @@
 				DC1A4A4F11FF5D0500BCDA30 /* Debug */,
 				DC1A4A5011FF5D0500BCDA30 /* Release */,
 				DC3748DA1357BC69004E69D6 /* Distribution */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Distribution;
-		};
-		DC299A9A1208B5D5006A023C /* Build configuration list for PBXNativeTarget "readertest" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DC299A981208B5D5006A023C /* Debug */,
-				DC299A991208B5D5006A023C /* Release */,
-				DC3748DB1357BC69004E69D6 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Distribution;
