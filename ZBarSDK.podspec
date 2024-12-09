@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.summary  = 'QR and barcode scan library'
   s.homepage = 'http://zbar.sourceforge.net/'
   s.author   = { 'Jeff Brown' => 'spadix@users.sourceforge.net' }
-  s.source   = { :git => 'https://github.com/SangWoo-So/ZBar', :revision => 'iPhoneSDK-2.0.0' }
+  s.source   = { :git => 'https://github.com/SangWoo-So/ZBar.git', :revision => 'iPhoneSDK-2.0.0' }
 
   s.description  = 'ZBar is an open source software suite for reading bar codes from various sources, such as video streams, ' \
                    'image files and raw intensity sensors. It supports many popular symbologies (types of bar codes) including ' \
