@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'ZBarSDK'
-  s.version  = '1.3.1'
+  s.version  = '2.0.0'
   s.platform = :ios
   s.license  = 'GNU LGPL 2.1'
   s.summary  = 'QR and barcode scan library'
